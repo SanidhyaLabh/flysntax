@@ -1,0 +1,90 @@
+[
+ {
+  "epoch": 1,
+  "val_acc": 0.5,
+  "per_kind": {
+   "moved_brace": 0.0,
+   "moved_paren": 0.0,
+   "moved_semicolon": 0.0,
+   "none": 1.0,
+   "swap_adjacent": 0.0
+  }
+ },
+ {
+  "epoch": 2,
+  "val_acc": 0.5066666666666667,
+  "per_kind": {
+   "moved_brace": 0.46,
+   "moved_paren": 0.37,
+   "moved_semicolon": 0.43,
+   "none": 0.59,
+   "swap_adjacent": 0.44
+  }
+ },
+ {
+  "epoch": 3,
+  "val_acc": 0.5,
+  "per_kind": {
+   "moved_brace": 1.0,
+   "moved_paren": 1.0,
+   "moved_semicolon": 1.0,
+   "none": 0.0,
+   "swap_adjacent": 1.0
+  }
+ },
+ {
+  "epoch": 4,
+  "val_acc": 0.5,
+  "per_kind": {
+   "moved_brace": 0.0,
+   "moved_paren": 0.0,
+   "moved_semicolon": 0.0,
+   "none": 1.0,
+   "swap_adjacent": 0.0
+  }
+ },
+ {
+  "epoch": 5,
+  "val_acc": 0.5,
+  "per_kind": {
+   "moved_brace": 0.0,
+   "moved_paren": 0.0,
+   "moved_semicolon": 0.0,
+   "none": 1.0,
+   "swap_adjacent": 0.0
+  }
+ },
+ {
+  "epoch": 6,
+  "val_acc": 0.5,
+  "per_kind": {
+   "moved_brace": 1.0,
+   "moved_paren": 1.0,
+   "moved_semicolon": 1.0,
+   "none": 0.0,
+   "swap_adjacent": 1.0
+  }
+ },
+ {
+  "epoch": 7,
+  "val_acc": 0.5233333333333333,
+  "per_kind": {
+   "moved_brace": 0.57,
+   "moved_paren": 0.68,
+   "moved_semicolon": 0.45,
+   "none": 0.53,
+   "swap_adjacent": 0.38
+  }
+ },
+ {
+  "epoch": 8,
+  "val_acc": 0.5166666666666667,
+  "per_kind": {
+   "moved_brace": 0.71,
+   "moved_paren": 0.78,
+   "moved_semicolon": 0.57,
+   "none": 0.38,
+   "swap_adjacent": 0.56
+  }
+ }
+]

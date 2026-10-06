@@ -1,0 +1,19 @@
+[
+ {
+  "epoch": 1,
+  "val_acc": 0.5125,
+  "per_kind": {
+   "dup_op": 0.0,
+   "keyword_typo": 0.0,
+   "missing_close_brace": 0.0,
+   "missing_close_paren": 0.0,
+   "missing_open_brace": 0.0,
+   "missing_open_paren": 0.0,
+   "missing_semicolon": 0.0,
+   "none": 1.0,
+   "semicolon_to_comma": 0.0,
+   "undeclared_var": 0.0,
+   "wrong_bracket": 0.0
+  }
+ }
+]

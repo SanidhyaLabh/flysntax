@@ -1,0 +1,102 @@
+data=v2  train 3202  val 300  (snippets longer than 80 tokens skipped)
+loading graph ...
+mode=real  neurons=49393  synapses=9050172  inputs=14064  outputs=1314
+wiring spectral radius 0.9750 -> starting gain 4.10
+trainable parameters: 712445
+[diag] mean |activity| over all neurons 0.0214, over output neurons 0.0191  (near 0 = signal dying, near 1 = saturated)
+ep 1 batch 10  loss 0.933  acc 0.466  3.0s/batch
+ep 1 batch 20  loss 0.850  acc 0.512  3.3s/batch
+ep 1 batch 30  loss 0.811  acc 0.459  3.1s/batch
+ep 1 batch 40  loss 0.837  acc 0.547  3.0s/batch
+ep 1 batch 50  loss 0.764  acc 0.475  3.0s/batch
+ep 1 batch 60  loss 0.832  acc 0.453  3.1s/batch
+ep 1 batch 70  loss 0.749  acc 0.528  3.1s/batch
+ep 1 batch 80  loss 0.769  acc 0.503  3.1s/batch
+ep 1 batch 90  loss 0.720  acc 0.481  3.1s/batch
+ep 1 batch 100  loss 0.874  acc 0.472  3.6s/batch
+== epoch 1: val acc 0.500
+   per kind {'moved_brace': 0.0, 'moved_paren': 0.0, 'moved_semicolon': 0.0, 'none': 1.0, 'swap_adjacent': 0.0}
+ep 2 batch 10  loss 0.877  acc 0.463  11.4s/batch
+ep 2 batch 20  loss 0.791  acc 0.481  7.4s/batch
+ep 2 batch 30  loss 0.830  acc 0.506  5.9s/batch
+ep 2 batch 40  loss 0.812  acc 0.441  5.1s/batch
+ep 2 batch 50  loss 0.738  acc 0.519  4.7s/batch
+ep 2 batch 60  loss 0.730  acc 0.466  4.4s/batch
+ep 2 batch 70  loss 0.706  acc 0.509  4.1s/batch
+ep 2 batch 80  loss 0.717  acc 0.544  4.0s/batch
+ep 2 batch 90  loss 0.753  acc 0.475  3.9s/batch
+ep 2 batch 100  loss 0.850  acc 0.516  3.8s/batch
+== epoch 2: val acc 0.507
+   per kind {'moved_brace': 0.46, 'moved_paren': 0.37, 'moved_semicolon': 0.43, 'none': 0.59, 'swap_adjacent': 0.44}
+ep 3 batch 10  loss 0.739  acc 0.478  2.8s/batch
+ep 3 batch 20  loss 0.714  acc 0.491  2.8s/batch
+ep 3 batch 30  loss 0.710  acc 0.541  2.9s/batch
+ep 3 batch 40  loss 0.709  acc 0.500  2.8s/batch
+ep 3 batch 50  loss 0.755  acc 0.481  2.8s/batch
+ep 3 batch 60  loss 0.740  acc 0.541  2.8s/batch
+ep 3 batch 70  loss 0.725  acc 0.500  2.8s/batch
+ep 3 batch 80  loss 0.735  acc 0.491  2.8s/batch
+ep 3 batch 90  loss 0.718  acc 0.472  2.8s/batch
+ep 3 batch 100  loss 0.741  acc 0.503  2.8s/batch
+== epoch 3: val acc 0.500
+   per kind {'moved_brace': 1.0, 'moved_paren': 1.0, 'moved_semicolon': 1.0, 'none': 0.0, 'swap_adjacent': 1.0}
+ep 4 batch 10  loss 0.872  acc 0.541  2.9s/batch
+ep 4 batch 20  loss 0.737  acc 0.506  3.0s/batch
+ep 4 batch 30  loss 0.789  acc 0.406  3.0s/batch
+ep 4 batch 40  loss 0.696  acc 0.525  2.9s/batch
+ep 4 batch 50  loss 0.767  acc 0.456  2.9s/batch
+ep 4 batch 60  loss 0.763  acc 0.506  2.9s/batch
+ep 4 batch 70  loss 0.791  acc 0.506  2.9s/batch
+ep 4 batch 80  loss 0.713  acc 0.497  2.9s/batch
+ep 4 batch 90  loss 0.706  acc 0.487  2.9s/batch
+ep 4 batch 100  loss 0.736  acc 0.487  2.9s/batch
+== epoch 4: val acc 0.500
+   per kind {'moved_brace': 0.0, 'moved_paren': 0.0, 'moved_semicolon': 0.0, 'none': 1.0, 'swap_adjacent': 0.0}
+ep 5 batch 10  loss 0.696  acc 0.534  2.9s/batch
+ep 5 batch 20  loss 0.697  acc 0.525  2.7s/batch
+ep 5 batch 30  loss 0.706  acc 0.481  2.8s/batch
+ep 5 batch 40  loss 0.766  acc 0.506  2.8s/batch
+ep 5 batch 50  loss 0.779  acc 0.475  2.8s/batch
+ep 5 batch 60  loss 0.787  acc 0.466  2.8s/batch
+ep 5 batch 70  loss 0.713  acc 0.481  2.9s/batch
+ep 5 batch 80  loss 0.701  acc 0.484  2.8s/batch
+ep 5 batch 90  loss 0.700  acc 0.487  2.8s/batch
+ep 5 batch 100  loss 0.709  acc 0.450  2.8s/batch
+== epoch 5: val acc 0.500
+   per kind {'moved_brace': 0.0, 'moved_paren': 0.0, 'moved_semicolon': 0.0, 'none': 1.0, 'swap_adjacent': 0.0}
+ep 6 batch 10  loss 0.711  acc 0.500  2.7s/batch
+ep 6 batch 20  loss 0.700  acc 0.506  2.8s/batch
+ep 6 batch 30  loss 0.718  acc 0.528  2.8s/batch
+ep 6 batch 40  loss 0.723  acc 0.531  2.8s/batch
+ep 6 batch 50  loss 0.707  acc 0.497  2.8s/batch
+ep 6 batch 60  loss 0.726  acc 0.500  2.8s/batch
+ep 6 batch 70  loss 0.700  acc 0.478  2.8s/batch
+ep 6 batch 80  loss 0.695  acc 0.516  2.8s/batch
+ep 6 batch 90  loss 0.699  acc 0.512  2.8s/batch
+ep 6 batch 100  loss 0.716  acc 0.466  2.8s/batch
+== epoch 6: val acc 0.500
+   per kind {'moved_brace': 1.0, 'moved_paren': 1.0, 'moved_semicolon': 1.0, 'none': 0.0, 'swap_adjacent': 1.0}
+ep 7 batch 10  loss 0.694  acc 0.537  2.5s/batch
+ep 7 batch 20  loss 0.689  acc 0.528  2.5s/batch
+ep 7 batch 30  loss 0.694  acc 0.534  2.6s/batch
+ep 7 batch 40  loss 0.711  acc 0.525  2.6s/batch
+ep 7 batch 50  loss 0.704  acc 0.497  2.6s/batch
+ep 7 batch 60  loss 0.701  acc 0.503  2.7s/batch
+ep 7 batch 70  loss 0.692  acc 0.516  2.7s/batch
+ep 7 batch 80  loss 0.699  acc 0.506  2.7s/batch
+ep 7 batch 90  loss 0.701  acc 0.481  2.7s/batch
+ep 7 batch 100  loss 0.693  acc 0.519  2.8s/batch
+== epoch 7: val acc 0.523
+   per kind {'moved_brace': 0.57, 'moved_paren': 0.68, 'moved_semicolon': 0.45, 'none': 0.53, 'swap_adjacent': 0.38}
+ep 8 batch 10  loss 0.694  acc 0.509  3.0s/batch
+ep 8 batch 20  loss 0.697  acc 0.525  2.9s/batch
+ep 8 batch 30  loss 0.692  acc 0.572  2.8s/batch
+ep 8 batch 40  loss 0.688  acc 0.562  2.8s/batch
+ep 8 batch 50  loss 0.690  acc 0.519  2.7s/batch
+ep 8 batch 60  loss 0.693  acc 0.525  2.7s/batch
+ep 8 batch 70  loss 0.694  acc 0.519  2.8s/batch
+ep 8 batch 80  loss 0.689  acc 0.541  2.8s/batch
+ep 8 batch 90  loss 0.690  acc 0.544  2.8s/batch
+ep 8 batch 100  loss 0.688  acc 0.534  2.8s/batch
+== epoch 8: val acc 0.517
+   per kind {'moved_brace': 0.71, 'moved_paren': 0.78, 'moved_semicolon': 0.57, 'none': 0.38, 'swap_adjacent': 0.56}

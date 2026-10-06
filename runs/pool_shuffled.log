@@ -1,0 +1,86 @@
+train 2705  val 300  (snippets longer than 80 tokens skipped)
+loading graph ...
+mode=shuffled  neurons=49393  synapses=8991789  inputs=14064  outputs=1314
+wiring spectral radius 0.2217 -> starting gain 4.51
+trainable parameters: 1851629
+[diag] mean |activity| over all neurons 0.0116, over output neurons 0.0123  (near 0 = signal dying, near 1 = saturated)
+ep 1 batch 10  loss 1.065  acc 0.519  3.0s/batch
+ep 1 batch 20  loss 0.781  acc 0.491  3.1s/batch
+ep 1 batch 30  loss 0.816  acc 0.516  3.1s/batch
+ep 1 batch 40  loss 1.026  acc 0.491  3.0s/batch
+ep 1 batch 50  loss 1.153  acc 0.481  3.0s/batch
+ep 1 batch 60  loss 0.748  acc 0.566  2.9s/batch
+ep 1 batch 70  loss 0.750  acc 0.541  2.9s/batch
+ep 1 batch 80  loss 0.709  acc 0.562  2.9s/batch
+== epoch 1: val acc 0.593
+   per kind {'dup_op': 0.1, 'keyword_typo': 0.28, 'missing_close_brace': 0.13, 'missing_close_paren': 0.18, 'missing_open_brace': 0.17, 'missing_open_paren': 0.6, 'missing_semicolon': 0.38, 'none': 0.84, 'semicolon_to_comma': 0.47, 'undeclared_var': 0.29, 'wrong_bracket': 0.31}
+ep 2 batch 10  loss 0.685  acc 0.569  3.3s/batch
+ep 2 batch 20  loss 0.707  acc 0.547  3.2s/batch
+ep 2 batch 30  loss 1.008  acc 0.537  3.1s/batch
+ep 2 batch 40  loss 0.722  acc 0.522  3.0s/batch
+ep 2 batch 50  loss 0.758  acc 0.537  2.9s/batch
+ep 2 batch 60  loss 0.801  acc 0.556  2.9s/batch
+ep 2 batch 70  loss 0.841  acc 0.503  2.8s/batch
+ep 2 batch 80  loss 0.737  acc 0.547  2.8s/batch
+== epoch 2: val acc 0.560
+   per kind {'dup_op': 0.0, 'keyword_typo': 0.0, 'missing_close_brace': 0.13, 'missing_close_paren': 0.0, 'missing_open_brace': 0.0, 'missing_open_paren': 0.25, 'missing_semicolon': 0.0, 'none': 0.99, 'semicolon_to_comma': 0.07, 'undeclared_var': 0.0, 'wrong_bracket': 0.15}
+ep 3 batch 10  loss 0.683  acc 0.578  2.6s/batch
+ep 3 batch 20  loss 0.784  acc 0.509  2.9s/batch
+ep 3 batch 30  loss 0.783  acc 0.556  2.9s/batch
+ep 3 batch 40  loss 0.644  acc 0.628  2.8s/batch
+ep 3 batch 50  loss 0.631  acc 0.656  2.8s/batch
+ep 3 batch 60  loss 0.654  acc 0.631  2.8s/batch
+ep 3 batch 70  loss 0.691  acc 0.572  2.9s/batch
+ep 3 batch 80  loss 0.625  acc 0.656  2.8s/batch
+== epoch 3: val acc 0.533
+   per kind {'dup_op': 1.0, 'keyword_typo': 0.83, 'missing_close_brace': 0.67, 'missing_close_paren': 0.91, 'missing_open_brace': 1.0, 'missing_open_paren': 1.0, 'missing_semicolon': 1.0, 'none': 0.18, 'semicolon_to_comma': 1.0, 'undeclared_var': 1.0, 'wrong_bracket': 1.0}
+ep 4 batch 10  loss 0.940  acc 0.603  2.8s/batch
+ep 4 batch 20  loss 0.697  acc 0.631  2.8s/batch
+ep 4 batch 30  loss 0.742  acc 0.549  2.7s/batch
+ep 4 batch 40  loss 0.619  acc 0.628  2.7s/batch
+ep 4 batch 50  loss 0.680  acc 0.597  2.8s/batch
+ep 4 batch 60  loss 0.780  acc 0.600  2.8s/batch
+ep 4 batch 70  loss 0.761  acc 0.616  2.8s/batch
+ep 4 batch 80  loss 0.903  acc 0.562  2.8s/batch
+== epoch 4: val acc 0.560
+   per kind {'dup_op': 0.0, 'keyword_typo': 0.06, 'missing_close_brace': 0.0, 'missing_close_paren': 0.09, 'missing_open_brace': 0.0, 'missing_open_paren': 0.15, 'missing_semicolon': 0.0, 'none': 1.0, 'semicolon_to_comma': 0.0, 'undeclared_var': 0.0, 'wrong_bracket': 0.31}
+ep 5 batch 10  loss 0.934  acc 0.522  2.7s/batch
+ep 5 batch 20  loss 0.725  acc 0.566  2.6s/batch
+ep 5 batch 30  loss 0.699  acc 0.581  2.8s/batch
+ep 5 batch 40  loss 0.666  acc 0.624  2.8s/batch
+ep 5 batch 50  loss 0.931  acc 0.522  2.8s/batch
+ep 5 batch 60  loss 0.853  acc 0.609  2.8s/batch
+ep 5 batch 70  loss 0.825  acc 0.609  2.8s/batch
+ep 5 batch 80  loss 0.833  acc 0.588  2.7s/batch
+== epoch 5: val acc 0.687
+   per kind {'dup_op': 0.1, 'keyword_typo': 0.61, 'missing_close_brace': 0.13, 'missing_close_paren': 0.09, 'missing_open_brace': 0.08, 'missing_open_paren': 0.65, 'missing_semicolon': 0.15, 'none': 0.97, 'semicolon_to_comma': 0.47, 'undeclared_var': 0.43, 'wrong_bracket': 0.62}
+ep 6 batch 10  loss 0.647  acc 0.666  2.9s/batch
+ep 6 batch 20  loss 0.596  acc 0.663  2.9s/batch
+ep 6 batch 30  loss 0.871  acc 0.528  2.8s/batch
+ep 6 batch 40  loss 0.571  acc 0.650  2.9s/batch
+ep 6 batch 50  loss 0.740  acc 0.591  2.9s/batch
+ep 6 batch 60  loss 0.662  acc 0.662  2.9s/batch
+ep 6 batch 70  loss 0.572  acc 0.694  2.8s/batch
+ep 6 batch 80  loss 0.479  acc 0.747  2.8s/batch
+== epoch 6: val acc 0.697
+   per kind {'dup_op': 1.0, 'keyword_typo': 0.89, 'missing_close_brace': 0.73, 'missing_close_paren': 0.91, 'missing_open_brace': 1.0, 'missing_open_paren': 0.9, 'missing_semicolon': 0.85, 'none': 0.5, 'semicolon_to_comma': 1.0, 'undeclared_var': 1.0, 'wrong_bracket': 1.0}
+ep 7 batch 10  loss 0.613  acc 0.666  2.9s/batch
+ep 7 batch 20  loss 0.701  acc 0.625  2.8s/batch
+ep 7 batch 30  loss 0.613  acc 0.651  2.8s/batch
+ep 7 batch 40  loss 0.775  acc 0.600  2.8s/batch
+ep 7 batch 50  loss 0.504  acc 0.709  2.8s/batch
+ep 7 batch 60  loss 0.543  acc 0.697  2.8s/batch
+ep 7 batch 70  loss 0.503  acc 0.713  2.8s/batch
+ep 7 batch 80  loss 0.640  acc 0.681  2.8s/batch
+== epoch 7: val acc 0.623
+   per kind {'dup_op': 0.7, 'keyword_typo': 0.94, 'missing_close_brace': 0.67, 'missing_close_paren': 0.91, 'missing_open_brace': 0.83, 'missing_open_paren': 0.85, 'missing_semicolon': 0.92, 'none': 0.39, 'semicolon_to_comma': 1.0, 'undeclared_var': 1.0, 'wrong_bracket': 1.0}
+ep 8 batch 10  loss 0.608  acc 0.697  2.6s/batch
+ep 8 batch 20  loss 0.610  acc 0.666  2.7s/batch
+ep 8 batch 30  loss 0.601  acc 0.665  2.7s/batch
+ep 8 batch 40  loss 0.642  acc 0.653  2.7s/batch
+ep 8 batch 50  loss 0.518  acc 0.738  2.8s/batch
+ep 8 batch 60  loss 0.559  acc 0.703  2.8s/batch
+ep 8 batch 70  loss 0.457  acc 0.803  2.8s/batch
+ep 8 batch 80  loss 0.622  acc 0.700  2.8s/batch
+== epoch 8: val acc 0.707
+   per kind {'dup_op': 0.2, 'keyword_typo': 0.56, 'missing_close_brace': 0.13, 'missing_close_paren': 0.27, 'missing_open_brace': 0.0, 'missing_open_paren': 0.55, 'missing_semicolon': 0.15, 'none': 1.0, 'semicolon_to_comma': 0.4, 'undeclared_var': 0.57, 'wrong_bracket': 0.69}

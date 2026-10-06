@@ -1,0 +1,6 @@
+huggingface_hub
+matplotlib
+numpy
+scipy
+torch
+tqdm

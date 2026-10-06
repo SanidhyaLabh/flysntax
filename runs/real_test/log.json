@@ -1,0 +1,36 @@
+[
+ {
+  "epoch": 1,
+  "val_acc": 0.54,
+  "per_kind": {
+   "dup_op": 0.0,
+   "keyword_typo": 0.0,
+   "missing_close_brace": 0.0,
+   "missing_close_paren": 0.0,
+   "missing_open_brace": 0.0,
+   "missing_open_paren": 0.0,
+   "missing_semicolon": 0.0,
+   "none": 1.0,
+   "semicolon_to_comma": 0.0,
+   "undeclared_var": 0.0,
+   "wrong_bracket": 0.0
+  }
+ },
+ {
+  "epoch": 2,
+  "val_acc": 0.48,
+  "per_kind": {
+   "dup_op": 0.89,
+   "keyword_typo": 0.83,
+   "missing_close_brace": 1.0,
+   "missing_close_paren": 0.86,
+   "missing_open_brace": 1.0,
+   "missing_open_paren": 0.85,
+   "missing_semicolon": 1.0,
+   "none": 0.1,
+   "semicolon_to_comma": 1.0,
+   "undeclared_var": 1.0,
+   "wrong_bracket": 0.89
+  }
+ }
+]
